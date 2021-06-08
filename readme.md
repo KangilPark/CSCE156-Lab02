@@ -1,11 +1,13 @@
 # Computer Science II
-## Lab 3.0 - Strings & File I/O
+## Lab 2.0 - Strings & File I/O
 
 An introduction to using strings and file input/output in the Java programming
 language.  A separate folder containing a PHP version of this lab is also 
 included for the honors section.
 
 This is a lab used in Computer Science II (CSCE 156, CSCE 156H) in the [Department of Computer Science & Engineering](https://cse.unl.edu) at the [University of Nebraska-Lincoln](https://unl.edu).
+
+Chris Bourke wrote this lab, revamped by Sarah Roscoe for Summer 2021.
 
 ## Overview
 
@@ -26,41 +28,23 @@ Following the lab, you should be able to:
 
 ### Peer Programming Pair-Up
 
-To encourage collaboration and a team environment, labs will be
-structured in a *pair programming* setup.  At the start of
-each lab, you may be randomly paired up with another student by
-a lab instructor.  One of you will be designated the *driver* 
-and the other the *navigator*.  
+You may work on this lab with a partner or by yourself. Whichever you choose, you should submit your code to the corresponding Handin assignment. Handin link: https://cse-apps.unl.edu/handin
 
-The navigator will be responsible for reading the instructions 
-and telling the driver what is to be done.  The driver will be 
-in charge of the keyboard and workstation.  Both driver and 
-navigator are responsible for suggesting fixes and solutions 
-*together*.  Neither the navigator nor the driver is "in charge."  
-Beyond your immediate pairing, you are encouraged to help and 
-interact and with other pairs in the lab.
+If you attend lab over Zoom, you may work in a a pair programming setup. At the start of each lab, you may be randomly paired up with another student by a lab instructor. One of you will be designated the driver and the other the navigator.
 
-Each week you should try to alternate: if you were a driver 
-last week, be a navigator next, etc.  Resolve any issues (you 
-were both drivers last week) within your pair.  Ask the lab 
-instructor to resolve issues only when you cannot come to a 
-consensus.  
+The navigator will be responsible for reading the instructions and telling the driver what is to be done. The driver will be in charge of the keyboard and workstation (on Zoom, this means the driver shares their screen). Both driver and navigator are responsible for suggesting fixes and solutions together. Neither the navigator nor the driver is "in charge."
+Beyond your immediate pairing, you are encouraged to help and interact and with other pairs in the lab.
 
-Because of the peer programming setup of labs, it is absolutely 
-essential that you complete any pre-lab activities and familiarize
-yourself with the handouts prior to coming to lab.  Failure to do
-so will negatively impact your ability to collaborate and work with 
-others which may mean that you will not be able to complete the
-lab.  
+Each week you should try to alternate: if you were a driver last week, be a navigator next, etc. Resolve any issues (you were both drivers last week) within your pair. Ask the lab instructor to resolve issues only when you cannot come to a consensus.
+
+Because of the peer programming setup of labs, it is absolutely essential that you complete any pre-lab activities and familiarize yourself with the handouts prior to coming to lab. Failure to do so will negatively impact your ability to collaborate and work with others which may mean that you will not be able to complete the lab.
 
 ## 1. Getting Started
 
 Clone this project code for this lab from GitHub in Eclipse using the
-URL: https://github.com/cbourke/CSCE156-Lab03. Refer to Lab 1.0 for
+URL: https://github.com/sroscoe2/CSCE156-Lab02. Refer to Lab 1.0 for
 instructions on how to clone a project from GitHub.
 
-For those with prior Java experience, do the PHP version of this
-lab. For those without prior Java experience, do the Java version.
 
 ## 2. Strings & File I/O
 
@@ -107,7 +91,7 @@ supported:
 
 * `%Nd` - print the argument as an integer with at least `N` spaces.
 
-* `N.Mf` - print the argument as a floating point number with at least `N`
+* `%N.Mf` - print the argument as a floating point number with at least `N`
     characters (including the decimal) and at most `M` decimals of
     precision.
 
@@ -164,7 +148,7 @@ You?
 
 1.  Open the `DnaAnalysis.java` and `data/H1N1nucleotide.txt` files
 
-2.  Modify the `main` method to read in a DNa subsequence from the command line (and
+2.  Modify the `main` method to read in a DNA subsequence from the command line (and
     to echo an error and exit if it is not provided).
     
 3.  The code to read in and process the nucleotide sequence is already
@@ -185,8 +169,8 @@ You?
 ### 3.2 File Processing
 
 1.  Open `Baseball.java` the `Team.java` source files. 
-    The `Team` class has already been implemented for you.  Recall from lab
-    2 you can create an instance of an object by using the `new` keyword to
+    The `Team` class has already been implemented for you.  Recall 
+    that you can create an instance of an object by using the `new` keyword to
     call the class's constructor.  For example:  
     ```java
     //Huskers had 8 wins, 4 losses:
@@ -234,7 +218,7 @@ errors and completely debug your programs.
 * Submit the following files through webhandin:
   * `DnaAnalysis.java`
   * `Baseball.java`
-* Run the grader and verify the output to complete your lab.
+* Run the grader https://cse.unl.edu/~cse156/grade/ and verify the output to complete your lab.
 
 ### Advanced Activity (Optional) 
 
