@@ -225,5 +225,5 @@ errors and completely debug your programs.
 The code to sort the teams according to their win percentage was
 provided for you. It involved defining a `Comparator` (as an anonymous class) that
 was passed as an argument to a built-in sort method. Study this code and
-read the documentation for the sorting method. Modify the to sort the
+read the documentation for the sorting method. Modify the code to sort the
 list of teams in alphabetic order according to the team name instead.
