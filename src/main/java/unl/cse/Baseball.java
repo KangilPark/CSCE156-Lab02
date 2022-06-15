@@ -2,6 +2,7 @@ package unl.cse;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -45,8 +46,13 @@ public class Baseball {
 			System.out.println(t);
 		}
 
-		Collections.sort(teams, Team.teamByWinPercentage);
+		Collections.sort(teams, new Comparator<Team>() {
+			@Override
+			public int compare(Team a, Team b) {
+				return b.getWinPercentage().compareTo(a.getWinPercentage());
+			}
 
+		});
 		System.out.println("\n\nSorted Teams: ");
 		for (Team t : teams) {
 			System.out.println(t);
