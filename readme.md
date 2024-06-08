@@ -218,7 +218,7 @@ errors and completely debug your programs.
 * Submit the following files through webhandin:
   * `DnaAnalysis.java`
   * `Baseball.java`
-* Run the grader https://cse.unl.edu/~cse156/grade/ and verify the output to complete your lab.
+* Run the grader https://cse-linux-01.unl.edu/~c-sroscoe2/CSE156/grade/ and verify the output to complete your lab.
 
 ### Advanced Activity (Optional) 
 
