@@ -42,7 +42,7 @@ Because of the peer programming setup of labs, it is absolutely essential that y
 ## 1. Getting Started
 
 Clone this project code for this lab from GitHub in Eclipse using the
-URL: https://github.com/sroscoe2/CSCE156-Lab02. Refer to Lab 1.0 for
+URL: https://github.com/kangilpark/CSCE156-Lab02. Refer to Lab 1.0 for
 instructions on how to clone a project from GitHub.
 
 
@@ -218,7 +218,7 @@ errors and completely debug your programs.
 * Submit the following files through webhandin:
   * `DnaAnalysis.java`
   * `Baseball.java`
-* Run the grader https://cse-linux-01.unl.edu/~c-sroscoe2/CSE156/grade/ and verify the output to complete your lab.
+* Run the grader https://cse-linux-01.unl.edu/~c-kpark5/CSCE156/grade/ and verify the output to complete your lab.
 
 ### Advanced Activity (Optional) 
 
